@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Echo Mind — Upload de Áudios</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/upload.css" />
+</head>
+<body>
+  <main class="upload-main">
+    <div class="upload-col upload-col-upload">
+      <div class="upload-box">
+        <h2>Envie seus Áudios</h2>
+        <form id="uploadForm">
+          <input type="file" id="fileInput" accept="audio/*" multiple />
+          <button type="submit" id="btnUpload">Fazer upload</button>
+        </form>
+        <p class="upload-tip">Arraste e solte arquivos de áudio ou clique para selecionar.</p>
+      </div>
+    </div>
+    <div class="upload-col upload-col-files">
+      <h3>Arquivos enviados</h3>
+      <table class="files-table">
+        <thead>
+          <tr>
+            <th>Nome do Arquivo</th>
+            <th>Data de Upload</th>
+          </tr>
+        </thead>
+        <tbody id="uploadedFilesTable">
+          <!-- Preenchido via JS -->
+        </tbody>
+      </table>
+    </div>
+    <div class="upload-col upload-col-insights">
+      <h3>Insights dos Áudios</h3>
+      <div class="insights-area">
+        <p>Nenhum insight disponível ainda.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <small>© <span id="ano"></span> Echo Mind</small>
+  </footer>
+  <script src="js/upload.js"></script>
+</body>
+</html>

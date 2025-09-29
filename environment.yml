@@ -1,0 +1,13 @@
+name: echomind
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - django==5.2.6
+      - djangorestframework
+      - gunicorn
