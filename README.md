@@ -1,6 +1,6 @@
 # Echo Mind
 
-![Echo Mind Logo](./docs/logo.png)
+<img src="EchoMind.Web/img/logo.png" alt="Echo Mind Logo" width="300"/>
 
 **Echo Mind** é um software inovador de análise de áudios que transforma suas gravações em transcrições precisas e resumos inteligentes, permitindo decisões rápidas e baseadas em dados.
 
@@ -36,11 +36,17 @@
 
 ## 🚀 Demonstração
 
-![Interface Echo Mind](./docs/demo.png)
+1. Faça o Cadastro e Depois Logue em Seu Perfil:
 
-1. Faça upload do áudio.  
-2. Receba a transcrição completa.  
-3. Visualize resumos e análises automáticas.
+<img width="1919" height="870" alt="Captura de tela 2025-09-29 161330" src="https://github.com/user-attachments/assets/543cdf7b-8d93-43f8-ac11-fb812e679065" />
+
+
+2. Faça upload do áudio.  
+3. Receba a transcrição completa.  
+4. Visualize resumos e análises automáticas.
+   
+
+<img width="1898" height="851" alt="Captura de tela 2025-09-29 161409" src="https://github.com/user-attachments/assets/ff3ab31c-834f-489e-93bb-2cd6616757c4" />
 
 ---
 
